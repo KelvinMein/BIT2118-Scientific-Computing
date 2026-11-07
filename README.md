@@ -7,4 +7,5 @@ Individual repository of Kelvin Mein.
 | 2 | NumPy Arrays and Numerical Computation | `code/` | `docs/Task_02.md` || 3 | Mathematical Functions and Vectorization | `code/` | `docs/Task_03.md` || 2 | NumPy Arrays and Numerical Computation | `code/` | `docs/Task_02.md` |
 | 3 | Mathematical Functions and Vectorization | `code/` | `docs/Task_03.md` |
 | 4 | Floating-Point Arithmetic and Numerical Errors | `code/` | `docs/Task_04.md` |
-|5 | Matrix Algebra and Matrix Operations | `code/` | `docs/Task_05.md` |
+||5 | Matrix Algebra and Matrix Operations | `code/`
+ | `docs/Task_05.md` |
