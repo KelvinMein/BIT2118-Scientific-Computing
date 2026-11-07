@@ -26,11 +26,10 @@ Changed approx_value from 1.414 to 1.4142 (code/Task_04_modified_parameter.py).
 | 1.414 | 0.00021356 | 0.01510114% |
 | 1.4142 | 0.00001356 | 0.00095900% |
 
-(Explain in your words: error fell about 15.7 times because the approximation is closer to sqrt(2); the other lines are unchanged since they don't use approx_value.)
+The absolute error fell from 0.00021356 to 0.00001356, about 15.7 times smaller, because 1.4142 is closer to the true value of the square root of 2 (1.41421356) than 1.414 is. The relative error shrank by the same factor, since it is the absolute error divided by the same number. The other lines of output did not change because they do not use approx_value.
 
 ## D. Interpretation
-(Explain in your words: why 0.1 + 0.2 != 0.3 in binary; why np.isclose is used; catastrophic cancellation in the direct formula for tiny x, where the exact limit is 0.5 and the direct form drifts to 0.50004445 at x = 1e-12 while the stable form stays correct.)
-
+Computers store numbers in binary, and 0.1 and 0.2 cannot be written exactly in binary, just as 1/3 cannot be written exactly in decimal. Adding them gives 0.30000000000000004, so an exact == comparison returns False. np.isclose accepts a tiny tolerance, so it returns True. In the direct formula (sqrt(1+x) - 1)/x, a tiny x makes sqrt(1+x) almost equal to 1, so the subtraction cancels most of the correct digits and leaves mostly round-off noise. At x = 1e-12 the direct result was 0.50004445 instead of 0.5, while the stable form 1/(sqrt(1+x)+1) stayed correct because it has no subtraction of nearly equal numbers.
 ## E. Modified program: summing one million 0.10 KES sales
 Code: code/Task_04_modified_money_sum.py
 
@@ -48,4 +47,4 @@ Loop total == 100000.0 ? False
 np.isclose(loop total, 100000.0) ? True
 ```
 
-(Interpretation in your own words, as above.)
+The float64 loop ended about 1.3e-6 KES from the true total of 100,000 because 0.10 cannot be stored exactly and each of the million additions adds a tiny error. np.sum and math.fsum were almost exact because they limit how errors build up. The float32 total was off by about 958 KES because it keeps only about 7 significant digits. For money, integer cents or Decimal are safer than floats, and results should be compared with a tolerance, not ==.
