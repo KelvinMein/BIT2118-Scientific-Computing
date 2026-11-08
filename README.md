@@ -9,3 +9,4 @@ Individual repository of Kelvin Mein.
 | 4 | Floating-Point Arithmetic and Numerical Errors | `code/` | `docs/Task_04.md` |
 ||5 | Matrix Algebra and Matrix Operations | `code/`
  | `docs/Task_05.md` |
+ | 6 | Solution of Systems of Linear Equations | `code/` | `docs/Task_06.md` |
