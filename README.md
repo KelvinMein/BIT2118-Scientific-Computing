@@ -10,3 +10,4 @@ Individual repository of Kelvin Mein.
 ||5 | Matrix Algebra and Matrix Operations | `code/`
  | `docs/Task_05.md` |
  | 6 | Solution of Systems of Linear Equations | `code/` | `docs/Task_06.md` |
+ | 7 | Gaussian Elimination and LU Decomposition | `code/` | `docs/Task_07.md` |
