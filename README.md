@@ -13,3 +13,4 @@ Individual repository of Kelvin Mein.
  | 7 | Gaussian Elimination and LU Decomposition | `code/` | `docs/Task_07.md` |
  | 8 | Iterative Methods for Linear Systems | `code/` | `docs/Task_08.md` |
  | 9 | Eigenvalues and Eigenvectors | `code/` | `docs/Task_09.md` |
+ | 10 | Root Finding: Bisection and Fixed-Point Methods | `code/` | `docs/Task_10.md` |
