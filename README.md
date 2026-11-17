@@ -11,3 +11,5 @@ Individual repository of Kelvin Mein.
  | `docs/Task_05.md` |
  | 6 | Solution of Systems of Linear Equations | `code/` | `docs/Task_06.md` |
  | 7 | Gaussian Elimination and LU Decomposition | `code/` | `docs/Task_07.md` |
+ | 8 | Iterative Methods for Linear Systems | `code/` | `docs/Task_08.md` |
+ | 9 | Eigenvalues and Eigenvectors | `code/` | `docs/Task_09.md` |
