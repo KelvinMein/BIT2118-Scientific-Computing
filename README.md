@@ -15,3 +15,4 @@ Individual repository of Kelvin Mein.
  | 10 | Root Finding: Bisection and Fixed-Point Methods | `code/` | `docs/Task_10.md` |
  | 11 | Root Finding: Newton-Raphson and Secant Methods | `code/` | `docs/Task_11.md` |
  | 12 | Polynomial and Nonlinear Equation Solving | code/|docs/Task_12.md |
+ | 13 | Interpolation | `code/` | `docs/Task_13.md` |
