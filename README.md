@@ -16,3 +16,4 @@ Individual repository of Kelvin Mein.
  | 11 | Root Finding: Newton-Raphson and Secant Methods | `code/` | `docs/Task_11.md` |
  | 12 | Polynomial and Nonlinear Equation Solving | code/|docs/Task_12.md |
  | 13 | Interpolation | `code/` | `docs/Task_13.md` |
+ | 14 | Curve Fitting and Approximation | `code/` | `docs/Task_14.md` |
