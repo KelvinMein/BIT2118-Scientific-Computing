@@ -19,3 +19,4 @@ Individual repository of Kelvin Mein.
  | 14 | Curve Fitting and Approximation | `code/` | `docs/Task_14.md` |
  | 15 | Numerical Differentiation | `code/` | `docs/Task_15.md` |
  | 16 | Numerical Integration | `code/` | `docs/Task_16.md` |
+ | 17 | Ordinary Differential Equations: Euler Method | `code/` | `docs/Task_17.md` |
