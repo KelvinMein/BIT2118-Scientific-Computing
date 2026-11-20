@@ -18,3 +18,4 @@ Individual repository of Kelvin Mein.
  | 13 | Interpolation | `code/` | `docs/Task_13.md` |
  | 14 | Curve Fitting and Approximation | `code/` | `docs/Task_14.md` |
  | 15 | Numerical Differentiation | `code/` | `docs/Task_15.md` |
+ | 16 | Numerical Integration | `code/` | `docs/Task_16.md` |
