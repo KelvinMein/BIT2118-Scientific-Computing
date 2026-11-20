@@ -22,3 +22,4 @@ Individual repository of Kelvin Mein.
  | 17 | Ordinary Differential Equations: Euler Method | `code/` | `docs/Task_17.md` |
  | 18 | Numerical Solution of ODEs Using SciPy | `code/` | `docs/Task_18.md` |
  | 19 | Numerical Optimization | `code/` | `docs/Task_19.md` |
+ | 20 | Random Numbers and Monte Carlo Methods | `code/` | `docs/Task_20.md` |
